@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "txauth-sdk"
+version = "0.1.0"
+description = "TxAuth — Open protocol for AI agent transaction authorization"
+readme = "../../README.md"
+license = { text = "MIT" }
+authors = [{ name = "TxAuth Contributors" }]
+requires-python = ">=3.9"
+keywords = ["txauth", "ai", "agent", "blockchain", "transaction", "authorization"]
+
+[project.urls]
+Homepage = "https://github.com/minernote/txauth"
+Repository = "https://github.com/minernote/txauth"
